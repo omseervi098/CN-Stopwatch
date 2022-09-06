@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Stop Watch </title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container py-2">
+        <header class="text-center">
+            <h1 class="display-4 mb-4">StopWatch</h1>
+        </header>
+        <div class="py-2">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <div class="rounded bg-gradient-4 text-white shadow p-5 text-center mb-5">
+                        <div id="clock-c" class="countdown py-4">
+                            <span class="h1 font-weight-bold">00</span> Hr
+                            <span class="h1 font-weight-bold">00</span> Min
+                            <span class="h1 font-weight-bold">00</span> Sec
+                        </div>
+                        <ul class="list-inline">
+                            <li class="list-inline-item pt-2">
+                                <button id="start" type="button" class="btn btn-demo">Start</button>
+                            </li>
+                            <li class="list-inline-item pt-2">
+                                <button id="stop" type="button" class="btn btn-demo">Stop</button>
+                            </li>
+                            <li class="list-inline-item pt-2">
+                                <button id="reset" type="button" class="btn btn-demo">Reset</button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="py-0" id="time-tillnow">
+            <div class="row">
+                <div class="col-lg-6 mx-auto">
+                    <div class="rounded bg-gradient-4 text-white shadow p-3 text-center mb-5">
+                        <div id="fulltime">
+                            <h3>Time Till Now</h3>
+                            <div id="clock-show" class="countdown py-2">
+                                <span class="h1 font-weight-bold">00</span> Hr
+                                <span class="h1 font-weight-bold">00</span> Min
+                                <span class="h1 font-weight-bold">00</span> Sec
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/4499aac38f.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

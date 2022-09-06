@@ -1,0 +1,38 @@
+
+.countdown {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.countdown span {
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+    font-size: 3rem;
+    margin-left: 0.8rem;
+}
+
+.countdown span:first-of-type {
+    margin-left: 0;
+}
+body {
+    min-height: 100vh;
+}
+.bg-gradient-4 {
+    background: #007991;
+    background: -webkit-linear-gradient(to right, #002663, #00ff40);
+    background: linear-gradient(to right, #002663, #3c7ade);
+}
+.rounded {
+    border-radius: 1.2rem !important;
+}
+.btn-demo {
+    padding: 0.5rem 2rem !important;
+    border-radius: 30rem !important;
+    background: rgba(255, 255, 255, 0.3) !important;
+    color: #fff !important;
+    text-transform: uppercase;
+    font-weight: bold !important;
+}
+.btn-demo:hover, .btn-demo:focus {
+    color: rgb(45, 45, 45) !important;
+    background: rgba(255, 255, 255,0.7 ) !important;
+}

@@ -15,7 +15,8 @@
 }
 body {
     min-height: 100vh;
-    background-image: url('https://img.freepik.com/free-vector/white-gold-geometric-pattern-background-vector_53876-140726.jpg?w=900&t=st=1662513574~exp=1662514174~hmac=cf0a0e3d66b7e040e35efa4927dd8370ecc56feaacd9eed534b8553275b8552b');
+    background-image: url('https://c4.wallpaperflare.com/wallpaper/165/275/593/colorful-windows-10-gradient-minimalism-soft-gradient-hd-wallpaper-preview.jpg');
+    background-size: cover;
 }
 .bg-gradient-4 {
     background: #007991;
